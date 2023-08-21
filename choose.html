@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learn Math</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <h1 id = "welcome"></h1>
+        <h2 style = "color: red; font-weight: bold; font-size: 30px;">Choose a math operation to practice!        <img src = "subtraction.gif"></h2>
+        <div class = "choosepage">
+            <span>
+            <img id="plus_img" src="plus-gif.gif" onclick="plus();">
+            <img id="sub_img" src="https://images.template.net/wp-content/uploads/2022/10/Animated-Minus-Sticker-Ideas-and-Examples.gif" onclick="subtract();">
+            </span>
+            <hr>
+            <span>
+            <img id="mult_img" src="multiplication.gif" onclick="multiply();">
+            <img id="divide_img" src="divide.gif" onclick="divide();">
+            </span>
+        </div>
+    </center>
+</body>
+
+
+
+<script src="choose.js"></script>
+
+</html>

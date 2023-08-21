@@ -1,0 +1,78 @@
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    border-color: azure;
+    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+}
+img:hover{
+    border-radius: 120px;
+}
+body{
+    background-color: aquamarine;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.choosepage{
+    background-color: skyblue;
+    border-radius: 15px;
+    width: 20%;
+}
+.choosepage img{
+    width: 200px;
+    height: 200px;
+}
+#mathimg{
+    border-radius: 15px;
+}
+#back{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.body_div button{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.body_div img{
+    width: 400px;
+    height: 400px;
+}
+.body_div input{
+    font-size: 23px;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+}
+#score{
+    font-size: 25px;
+}
+#question_box button{
+    font-size: 20px;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#question_box input{
+    font-size: 23px;
+}
+#question_box h4{
+    font-size: 20px;
+}
+#math-gif{
+    float: left;
+}
+#math-gif2{
+    float: right;
+}
+#math-gif3{
+    float: left;
+}
+#math-gif4{
+    float: right;
+}
